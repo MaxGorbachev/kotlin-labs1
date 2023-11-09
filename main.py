@@ -205,7 +205,7 @@ async def vote_up_cb_handler(call):
 
     if await check_follow(call):
         await bot.send_message(call.from_user.id,
-                               text='*Привет это 🍿КИНОМОЛОКО - БОТ | Поиск🔍\nЧтобы узнать название фильмов из ЮТУБ | ТИК ТОК вам нужно ввести код фильма.\nНажмите на «🔎Поиск» 👇*',
+                               text='*Привет это Film Helper Bot | Поиск🔍\nЧтобы узнать название фильмов из ЮТУБ | ТИК ТОК вам нужно ввести код фильма.\nНажмите на «🔎Поиск» 👇*',
                                parse_mode='Markdown', reply_markup=start.greet_kb1)
 
 
