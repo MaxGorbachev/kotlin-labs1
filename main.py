@@ -100,7 +100,7 @@ async def send_welcome(message):
 
     if await check_follow(message):
         await bot.send_message(message.from_user.id,
-                               text='*Привет это 🍿КИНОМОЛОКО - БОТ | Поиск🔍\nЧтобы узнать название фильмов из ЮТУБ | ТИК ТОК вам нужно ввести код фильма.\nНажмите на «🔎Поиск» 👇*',
+                               text='*Привет это Film Helper Bot | Поиск🔍\nЧтобы узнать название фильмов из ЮТУБ | ТИК ТОК вам нужно ввести код фильма.\nНажмите на «🔎Поиск» 👇*',
                                parse_mode='Markdown', reply_markup=start.greet_kb1)
 
 
